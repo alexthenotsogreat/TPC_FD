@@ -8,7 +8,7 @@ import os
 
 
 def clear_console():
-    os.system('clear')
+    os.system('cls')
 
 
 def encoding(data_array, output_file):
