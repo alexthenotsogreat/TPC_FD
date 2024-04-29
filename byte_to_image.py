@@ -16,6 +16,15 @@ def bytes_to_image(binary_string,out_file):
     with open(out_file, "wb") as fh:
         fh.write(base64.decodebytes(encoded_base64))
         fh.close()
+        
+    last_dot_index = out_file.rfind('.')
+    if last_dot_index != -1:
+        out_file_txt = out_file[:last_dot_index]
+    out_file_txt += ".txt"
+    
+    with open(out_file_txt, "wb") as fh:
+        fh.write(base64.decodebytes(encoded_base64))
+        fh.close()
 
     #plt.title("Received Image")
     #plt.xlabel("X pixel scaling")
