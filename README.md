@@ -13,5 +13,5 @@ Outputs:
   2.2 -> ficheiro output com o resultado da descodificação (.txt) --> para comparação na opção 3  
   
 3 - Compare:  
-  -> resultado do cálculo do BER dos ficheiros introduzidos. Ficheiros estes que são, respetivamente, os 1.2 e 2.2.  
+  3.1 -> resultado do cálculo do BER dos ficheiros introduzidos. Ficheiros estes que são, respetivamente, os 1.2 e 2.2.  
   
